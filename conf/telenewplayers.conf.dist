@@ -3,7 +3,7 @@
 # -------------------------------------------------
 # TeleNewPlayers.Enable
 #
-#     Enable Module TeleNewPlayers
+#     Enable Module - TeleNewPlayers
 #         Default: 1
 # -------------------------------------------------
 TeleNewPlayers.Enable = 1
@@ -11,7 +11,7 @@ TeleNewPlayers.Enable = 1
 # -------------------------------------------------
 # TeleNewPlayers.Announce
 #
-#     Announce Module When Login TeleNewPlayers
+#     Announce Module When Login - TeleNewPlayers
 #         Default: 1
 # -------------------------------------------------
 TeleNewPlayers.Announce = 1
@@ -23,7 +23,7 @@ TeleNewPlayers.Announce = 1
 # TeleNewPlayers.Location.Alliance.PosZ Float
 # TeleNewPlayers.Location.Alliance.Orientation Float
 #
-#     Where Teleport The New Players (Alliance)
+#     Where Teleport The New Players (Alliance) BE CAREFULL EDITING THIS!!!
 #         Defaults (Dalaran):
 #             MapID:       571
 #             PosX:        5813.83f
@@ -44,7 +44,7 @@ TeleNewPlayers.Location.Alliance.Orientation = 1.31092f
 # TeleNewPlayers.Location.Horde.PosZ Float
 # TeleNewPlayers.Location.Horde.Orientation Float
 #
-#     Where Teleport The New Players (Horde)
+#     Where Teleport The New Players (Horde) BE CAREFULL EDITING THIS!!!
 #         Defaults (Dalaran):
 #             MapID:       571
 #             PosX:        5813.83f
