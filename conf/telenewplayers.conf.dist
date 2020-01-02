@@ -1,8 +1,59 @@
 [worldserver]
 
+# -------------------------------------------------
+# TeleNewPlayers.Enable
 #
-# Enable Hello World message at server start 
-# default: false
-#
+#     Enable Module TeleNewPlayers
+#         Default: 1
+# -------------------------------------------------
+TeleNewPlayers.Enable = 1
 
-MyCustom.enableHelloWorld=false
+# -------------------------------------------------
+# TeleNewPlayers.Announce
+#
+#     Announce Module When Login TeleNewPlayers
+#         Default: 1
+# -------------------------------------------------
+TeleNewPlayers.Announce = 1
+
+# -------------------------------------------------
+# TeleNewPlayers.Location.Alliance.MapID Integer
+# TeleNewPlayers.Location.Alliance.PosX Float (Example: 1.5f)
+# TeleNewPlayers.Location.Alliance.PosY Float
+# TeleNewPlayers.Location.Alliance.PosZ Float
+# TeleNewPlayers.Location.Alliance.Orientation Float
+#
+#     Where Teleport The New Players (Alliance)
+#         Defaults (Dalaran):
+#             MapID:       571
+#             PosX:        5813.83f
+#             PosY:        448.933f
+#             PosZ:        658.751f
+#             Orientation: 1.31092f
+# -------------------------------------------------
+TeleNewPlayers.Location.Alliance.MapID = 571
+TeleNewPlayers.Location.Alliance.PosX = 5813.83f
+TeleNewPlayers.Location.Alliance.PosY = 448.933f
+TeleNewPlayers.Location.Alliance.PosZ = 658.751f
+TeleNewPlayers.Location.Alliance.Orientation = 1.31092f
+
+# -------------------------------------------------
+# TeleNewPlayers.Location.Horde.MapID Integer
+# TeleNewPlayers.Location.Horde.PosX Float (Example: 1.5f)
+# TeleNewPlayers.Location.Horde.PosY Float
+# TeleNewPlayers.Location.Horde.PosZ Float
+# TeleNewPlayers.Location.Horde.Orientation Float
+#
+#     Where Teleport The New Players (Horde)
+#         Defaults (Dalaran):
+#             MapID:       571
+#             PosX:        5813.83f
+#             PosY:        448.933f
+#             PosZ:        658.751f
+#             Orientation: 1.31092f
+# -------------------------------------------------
+TeleNewPlayers.Location.Horde.MapID = 571
+TeleNewPlayers.Location.Horde.PosX = 5813.83f
+TeleNewPlayers.Location.Horde.PosY = 448.933f
+TeleNewPlayers.Location.Horde.PosZ = 658.751f
+TeleNewPlayers.Location.Horde.Orientation = 1.31092f
