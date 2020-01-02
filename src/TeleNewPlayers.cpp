@@ -25,7 +25,7 @@ public:
 			float posy = 0;
 			float posz = 0;
 			float orientation = 0;
-			if (!player->GetTeamId() == TEAM_HORDE){
+			if (!(player->GetTeamId() == TEAM_HORDE)){
 				mapid = sConfigMgr->GetIntDefault("TeleNewPlayers.Location.Alliance.MapID", 571);
 				posx = sConfigMgr->GetFloatDefault("TeleNewPlayers.Location.Alliance.PosX", 5813.83f);
 				posy = sConfigMgr->GetFloatDefault("TeleNewPlayers.Location.Alliance.PosY", 448.933f);
