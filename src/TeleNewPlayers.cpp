@@ -7,10 +7,10 @@
 #include "Config.h"
 #include "Chat.h"
 
-class MyPlayer : public PlayerScript{
+class TeleNewPlayers : public PlayerScript{
 public:
 
-    MyPlayer() : PlayerScript("MyPlayer") { }
+    TeleNewPlayers() : PlayerScript("MyPlayer") { }
 
     void OnLogin(Player* player) override {
         if (sConfigMgr->GetBoolDefault("MyCustom.enableHelloWorld", false)) {
@@ -19,7 +19,7 @@ public:
     }
 };
 
-void AddMyPlayerScripts() {
-    new MyPlayer();
+void AddTeleNewPlayersScripts() {
+    new TeleNewPlayers();
 }
 
