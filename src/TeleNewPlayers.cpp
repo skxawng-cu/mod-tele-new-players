@@ -14,7 +14,7 @@ public:
 
     void OnLogin(Player* player) override {
         if (sConfigMgr->GetBoolDefault("TeleNewPlayers.Enable", false) && sConfigMgr->GetBoolDefault("TeleNewPlayers.Announce", false)) {
-            ChatHandler(player->GetSession()).SendSysMessage("Modulo |cff4CFF00TeleNewPlayers |r habilitado:\n**** Teletransporta a los nuevos jugadores.");
+            ChatHandler(player->GetSession()).SendSysMessage("# Modulo |cff4CFF00TeleNewPlayers |r habilitado:\n##### Teletransporta a los nuevos jugadores al lugar escogido.");
         }
     }
 	
