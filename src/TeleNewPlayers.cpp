@@ -16,7 +16,7 @@ public:
 	{
 		if (sConfigMgr->GetBoolDefault("TeleNewPlayers.Enable", false) && sConfigMgr->GetBoolDefault("TeleNewPlayers.Announce", false))
 		{
-			ChatHandler(player->GetSession()).SendSysMessage("# Modulo |cff4CFF00TeleNewPlayers |r habilitado:\n##### Teletransporta a los nuevos jugadores al lugar escogido.");
+			ChatHandler(player->GetSession()).SendSysMessage("El modulo |cff4CFF00TeleportNuevos |r ha sido activado.");
 		}
 	}
 
