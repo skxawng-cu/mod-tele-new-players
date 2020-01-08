@@ -3,7 +3,7 @@
 
 ## Description
 
-This module allows you to config coords for alliance and horde to teleport the new players after the first login.
+This module allows you to config coords for alliance and horde to teleport the new players after the first login (Ideal for PvP servers).
 
 
 ## Requirements
