@@ -25,6 +25,10 @@ My new module requires:
 
 If you need to change the module configuration, go to your server configuration folder (where your `worldserver` or `worldserver.exe` is), copy `telenewplayers.conf.dist` to `telenewplayers.conf` and edit that new file.
 
+## TODO
+- Add a delay for teleport to reduce the network trafic.
+- Clean player inventory after the first login.
+
 
 ## Credits
 
