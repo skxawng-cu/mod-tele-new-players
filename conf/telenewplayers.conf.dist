@@ -9,6 +9,15 @@
 TeleNewPlayers.Enable = 1
 
 # -------------------------------------------------
+# TeleNewPlayers.EnableClean
+#
+#     Clean the player inventory after de first login
+#     * May not use with TeleNewPlayers.Enable = 0
+#         Default: 1
+# -------------------------------------------------
+TeleNewPlayers.EnableClean = 1
+
+# -------------------------------------------------
 # TeleNewPlayers.Announce
 #
 #     Announce Module When Login - TeleNewPlayers
