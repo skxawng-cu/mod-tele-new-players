@@ -1,7 +1,3 @@
-/**
-    This plugin can be used for common player customizations
- */
-
 #include "ScriptMgr.h"
 #include "Player.h"
 #include "Config.h"
@@ -24,6 +20,25 @@ public:
 	{
 		if (sConfigMgr->GetBoolDefault("TeleNewPlayers.Enable", false))
 		{
+			if (sConfigMgr->GetBoolDefault("TeleNewPlayers.EnableClean", false))
+			{
+				for (uint8 slot = EQUIPMENT_SLOT_START; slot < EQUIPMENT_SLOT_END; slot++)
+					player->DestroyItem(INVENTORY_SLOT_BAG_0, slot, true);
+				/*for (uint8 slot = INVENTORY_SLOT_BAG_START; slot < INVENTORY_SLOT_BAG_END; slot++)
+					player->DestroyItem(INVENTORY_SLOT_BAG_0, slot, true);
+				for (uint8 slot = INVENTORY_SLOT_ITEM_START; slot < INVENTORY_SLOT_ITEM_END; slot++)
+					player->DestroyItem(INVENTORY_SLOT_BAG_0, slot, true);
+				for (uint8 slot = BANK_SLOT_ITEM_START; slot < BANK_SLOT_ITEM_END; slot++)
+					player->DestroyItem(INVENTORY_SLOT_BAG_0, slot, true);
+				for (uint8 slot = BANK_SLOT_BAG_START; slot < BANK_SLOT_BAG_END; slot++)
+					player->DestroyItem(INVENTORY_SLOT_BAG_0, slot, true);
+				for (uint8 slot = BUYBACK_SLOT_START; slot < BUYBACK_SLOT_END; slot++)
+					player->DestroyItem(INVENTORY_SLOT_BAG_0, slot, true);
+	
+				player->EquipNewItem(EQUIPMENT_SLOT_CHEST, 2586, true);
+				player->EquipNewItem(EQUIPMENT_SLOT_FEET, 11508, true);
+				player->EquipNewItem(EQUIPMENT_SLOT_HEAD, 12064, true);*/
+			}
 			uint32 mapid = 0;
 			float posx = 0;
 			float posy = 0;
