@@ -27,7 +27,6 @@ If you need to change the module configuration, go to your server configuration 
 
 ## TODO
 - Add a delay for teleport to reduce the network trafic.
-- Clean player inventory after the first login.
 
 
 ## Credits
