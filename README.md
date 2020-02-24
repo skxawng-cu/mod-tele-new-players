@@ -17,8 +17,7 @@ My new module requires:
 
 ```
 1) Simply place the module under the `modules` directory of your AzerothCore source. 
-2) Import the SQL manually to the right Database (auth, world or characters) or with the `db_assembler.sh` (if `include.sh` provided).
-3) Re-run cmake and launch a clean build of AzerothCore.
+2) Re-run cmake and launch a clean build of AzerothCore.
 ```
 
 ## Edit module configuration (optional)
